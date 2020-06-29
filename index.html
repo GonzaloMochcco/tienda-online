@@ -1,0 +1,259 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Tienda online</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <!--CSS-->
+  <link rel="stylesheet" type="text/css" href="css/estilos.css">
+  <!--FontAwesome-->
+  <script src="https://kit.fontawesome.com/71e54281c9.js" crossorigin="anonymous"></script>
+  <!--Bootstrap-->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
+  <!--Googlefonts-->
+  <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@100;200;300;400&display=swap" rel="stylesheet">
+  <!--friconix-->
+		<script defer src="https://friconix.com/cdn/friconix.js"> </script>
+</head>
+<body>
+
+<!--HEADER-->
+<header class=" border-bottom fixed-top" style="background:rgba(
+ 255, 255, 255, 0.95); ">
+ 	<div class="redes">
+ 		<div class="container">
+	 		
+		</div>
+ 	</div>
+	<nav class="d-flex container justify-content-between align-items-center">
+		<div class="logo">
+			<img src="http://www.csiingenieros.com/images/logo.png">
+		</div>
+		<div class="opciones">
+			<a href="#" style="text-decoration: none;">TIENDAS</a>
+			<a href="#" style="text-decoration: none;">PRODUCTOS</a>
+			<a href="#" style="text-decoration: none;">CONTACTO</a>
+			<a href="#" style="text-decoration: none;">NOSOSTROS</a>
+			
+		</div>
+		<div class="iconos">
+			<i class="fi-xnluhl-magnifying-glass"></i>
+			<i class="fi-xnluxl-user"></i>
+			<i class="fi-xnluxl-shopping-cart"></i> <span>(0)</span>
+
+		</div>
+	</nav>
+	<!--OPCIONES RESPONSIVE-->
+		<div class="opciones-2 container">
+			<a href="#" style="text-decoration: none;">TIENDAS</a>
+			<a href="#" style="text-decoration: none;">PRODUCTOS</a>
+			<a href="#" style="text-decoration: none;">CONTACTO</a>
+			<a href="#" style="text-decoration: none;" id="nosotros-2">NOSOSTROS</a>
+		</div>
+</header>
+
+
+<div id="demo" class="carousel slide" data-ride="carousel">
+  <ul class="carousel-indicators">
+    <li data-target="#demo" data-slide-to="0" class="active"></li>
+    <li data-target="#demo" data-slide-to="1"></li>
+    <li data-target="#demo" data-slide-to="2"></li>
+  </ul>
+  <div class="carousel-inner">
+    <div class="carousel-item active" style="background-image: url(img/calzado-slider.jpg);">
+      <div class="texto-slider">
+      	<h1>DISEÑOS A TU MEDIDA</h1>
+      	<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ullam!</p>
+      	<a href="#" style="text-decoration: none;">COMPRAR AHORA</a>
+      </div>
+    </div>
+    <div class="carousel-item" style="background-image:url(img/ropa-slider.jpg);">
+      <div class="texto-slider">
+	      	<h1>DISEÑOS A TU MEDIDA</h1>
+	      	<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsam</p>
+	      	<a href="#" style="text-decoration: none;">COMPRAR AHORA</a>
+      </div>
+    </div>
+    <div class="carousel-item" style="background-image:url(img/frsadas-slider.jpg);">
+        <div class="texto-slider">
+      	<h1>DISEÑOS A TU MEDIDA</h1>
+      	<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eum</p>
+      	<a href="#" style="text-decoration: none;">COMPRAR AHORA</a>
+      </div>
+    </div>
+  </div>
+  <a class="carousel-control-prev" href="#demo" data-slide="prev">
+    <span class="carousel-control-prev-icon"></span>
+  </a>
+  <a class="carousel-control-next" href="#demo" data-slide="next">
+    <span class="carousel-control-next-icon "></span>
+  </a>
+</div>
+
+
+<!--PRODUCTOS-->
+<div class="container productos">
+	<div class="text-center productos-titulo">
+		<h1>PRODUCTOS</h1>
+		<p>Los mejores productos en las mejores tiendas</p>
+	</div>
+
+	<center><div class="productos-card">
+		<div class="producto-card">
+			<a href="#" style="text-decoration: none;">
+				<img src="img/calzado.jpg">
+				<h3>CALZADOS</h3>
+			</a>
+		</div>
+		<div class="producto-card">
+			<a href="#" style="text-decoration: none;">
+				<img src="img/utensilios.webp">
+				<h3>ROPA INTERIOR</h3>
+			</a>
+		</div>
+		<div class="producto-card">
+			<a href="#" style="text-decoration: none;">
+				<img src="img/ropa.webp">
+				<h3>ROPA</h3>
+			</a>
+		</div>
+		<div class="producto-card">
+			<a href="#" style="text-decoration: none;">
+				<img src="img/cubrecama.webp">
+				<h3>CUBRECAMAS</h3>
+			</a>
+		</div>
+		<div class="producto-card">
+			<a href="#" style="text-decoration: none;">
+				<img src="img/utiles.webp">
+				<h3>UTILES ESCOLARES</h3>
+			</a>
+		</div>
+		<div class="producto-card">
+			<a href="#" style="text-decoration: none;">
+				<img src="img/utensilios.webp">
+				<h3>UTENSILIOS</h3>
+			</a>
+		</div>
+	</div></center>
+</div>
+
+
+<!--TIENDAS INDEX-->
+<div class="tiendas">
+	<div class="banner-tiendas tiendas-titulo text-center">
+		<div >
+			<h1>TIENDAS OFICIALES</h1>
+			<p>Los mejores tiendas para lo que buscas</p>
+		</div>
+		<svg xmlns="http://www.w3.org/2000/svg" class="wave" viewBox="0 0 1440 320">
+  			<path fill="#ededed" fill-opacity="1" d="M0,224L1440,320L1440,320L0,320Z"></path>
+		</svg>
+	</div >
+
+	<!--TIENDAS SECCION -->
+	<div class="container mt-5 pb-5">
+		<center>
+			<div class="marcas-titulo">
+				<h1>Tiendas destacadas en <B>Celulares y Telefonos</B></h1>
+			</div>
+		</center>
+		<center>
+			<div class="marcas shadow">
+				<div  class="marca border-right border-bottom">
+					<img src="https://http2.mlstatic.com/resources/largesellers/256203862/hptiendaoficial/logo201711200543.jpg" alt="HP Store">
+				</div>
+				<div  class="marca border-right border-bottom">
+					<img src="https://http2.mlstatic.com/resources/largesellers/304683629/aoc/logo201803010326.jpg" alt="AOC">
+				</div>
+				<div  class="marca border-right border-bottom">
+					<img src="https://http2.mlstatic.com/resources/largesellers/399620474/xiaomi/logo201903050713.jpg" alt="Xiaomi">
+				</div>
+				<div  class="marca border-bottom">
+					<img src="https://http2.mlstatic.com/resources/largesellers/351626348/entel/logo201810111129.jpg" alt="Entel">
+				</div>
+				<div  class="marca border-right border-bottom">
+					<img src="https://http2.mlstatic.com/resources/largesellers/256203862/hptiendaoficial/logo201711200543.jpg" alt="HP Store">
+				</div>
+				<div  class="marca border-right border-bottom">
+					<img src="https://http2.mlstatic.com/resources/largesellers/304683629/aoc/logo201803010326.jpg" alt="AOC">
+				</div>
+				<div  class="marca border-right border-bottom">
+					<img src="https://http2.mlstatic.com/resources/largesellers/399620474/xiaomi/logo201903050713.jpg" alt="Xiaomi">
+				</div>
+				<div  class="marca border-bottom">
+					<img src="https://http2.mlstatic.com/resources/largesellers/351626348/entel/logo201810111129.jpg" alt="Entel">
+				</div>
+			</div>
+		</center>
+	</div>
+	<!--TIENDAS SECCION -->
+	<div class="container mt-5">
+		<center>
+			<div class="marcas-titulo">
+				<h1>Tiendas destacadas en <B>Ropa y Accesorios</B></h1>
+			</div>
+		</center>
+		<center>
+			<div class="marcas shadow">
+				<div  class="marca border-right border-bottom">
+					<img src="https://http2.mlstatic.com/resources/largesellers/399620474/xiaomi/logo201903050713.jpg" alt="Xiaomi">
+				</div>
+				<div  class="marca border-bottom">
+					<img src="https://http2.mlstatic.com/resources/largesellers/351626348/entel/logo201810111129.jpg" alt="Entel">
+				</div>
+				<div  class="marca border-right border-bottom">
+					<img src="https://http2.mlstatic.com/resources/largesellers/256203862/hptiendaoficial/logo201711200543.jpg" alt="HP Store">
+				</div>
+				<div  class="marca border-right border-bottom">
+					<img src="https://http2.mlstatic.com/resources/largesellers/304683629/aoc/logo201803010326.jpg" alt="AOC">
+				</div>
+			</div>
+		</center>
+	</div>
+	<!--TIENDAS SECCION -->
+	<div class="container mt-5 pb-5">
+		<center>
+			<div class="marcas-titulo">
+				<h1> <B>Celulares y Telefonos</B></h1>
+			</div>
+		</center>
+		<center>
+			<div class="marcas shadow">
+				<div  class="marca border-right border-bottom">
+					<img src="https://http2.mlstatic.com/resources/largesellers/256203862/hptiendaoficial/logo201711200543.jpg" alt="HP Store">
+				</div>
+				<div  class="marca border-right border-bottom">
+					<img src="https://http2.mlstatic.com/resources/largesellers/304683629/aoc/logo201803010326.jpg" alt="AOC">
+				</div>
+				<div  class="marca border-right border-bottom">
+					<img src="https://http2.mlstatic.com/resources/largesellers/399620474/xiaomi/logo201903050713.jpg" alt="Xiaomi">
+				</div>
+				<div  class="marca border-bottom">
+					<img src="https://http2.mlstatic.com/resources/largesellers/351626348/entel/logo201810111129.jpg" alt="Entel">
+				</div>
+				<div  class="marca border-right border-bottom">
+					<img src="https://http2.mlstatic.com/resources/largesellers/256203862/hptiendaoficial/logo201711200543.jpg" alt="HP Store">
+				</div>
+				<div  class="marca border-right border-bottom">
+					<img src="https://http2.mlstatic.com/resources/largesellers/304683629/aoc/logo201803010326.jpg" alt="AOC">
+				</div>
+				<div  class="marca border-right border-bottom">
+					<img src="https://http2.mlstatic.com/resources/largesellers/399620474/xiaomi/logo201903050713.jpg" alt="Xiaomi">
+				</div>
+				<div  class="marca border-bottom">
+					<img src="https://http2.mlstatic.com/resources/largesellers/351626348/entel/logo201810111129.jpg" alt="Entel">
+				</div>
+			</div>
+		</center>
+	</div>
+</div>
+<footer class="bg-dark">
+	sas
+</footer>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
+</body>
+</html>
